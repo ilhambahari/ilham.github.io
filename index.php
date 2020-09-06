@@ -50,7 +50,7 @@
 					
 
 					<ul id="navigation">
-						<li><a href="index.html#contact"><?= $contact; ?></a></li>
+						<li><a href="#contact"><?= $contact; ?></a></li>
 						<li>
 							<select type="text" name="bahasa" onchange="location = this.value;">
 								<option value="" selected disabled>-Lang-</option>
@@ -148,7 +148,7 @@
 
 				<div>
 					<div class="post">
-						<img class="thumbnail" src="images/pembayaran-spp/snap midtrans.png">
+						<img class="thumbnail" src="./images/pembayaran-spp/snap midtrans.png">
 						<div class="post-preview">
 							<?= $project1; ?>
 						</div>
