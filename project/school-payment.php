@@ -64,7 +64,7 @@
 			Pembayaran SPP dapat dilakukan di Indomaret, Alfamaret, transfer bank dan melalui dompet digital seperti Ovo, GoPay, Dana
 			</p>
 			<p> - Admin </p>
-			<li> Dasbor </li>
+			<li> Dashboard </li>
 			<li> Kelola data siswa </li>
 			<li> Kelola data pembayaran </li>
 			<li> Kelola data transaksi </li>
