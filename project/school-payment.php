@@ -88,7 +88,7 @@
 		$project = [
 			'Tagihan Siswa',
 			'Halaman Pembayaran Siswa',
-			'Pilih Tagihanl',
+			'Pilih Tagihan',
 			'Detail Pembayaran',
 			'Proses Pembayaran Midtrans',
 			'Konfirmasi Pembayaran'
