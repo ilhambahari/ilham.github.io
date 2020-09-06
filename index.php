@@ -1,8 +1,10 @@
 <?php 
 	
 	if(!isset($_GET['lang'])){
+		$get = "";
 		require 'en.php';
 	}else{
+		$get = "?lang=$_GET[lang]";
 		if($_GET['lang'] == 'en'){
 			require 'en.php';
 		}else{
@@ -53,7 +55,7 @@
 						<li><a href="#contact"><?= $contact; ?></a></li>
 						<li>
 							<select type="text" name="bahasa" onchange="location = this.value;">
-								<option value="" selected disabled>-Lang-</option>
+								<option value="" selected disabled><?= $language; ?></option>
 								<option value="?lang=en">EN</option>	
 								<option value="?lang=id">ID</option>	
 							</select>

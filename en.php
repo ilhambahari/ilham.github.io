@@ -2,6 +2,7 @@
 	
 	$title = "Hi, I'm Moch Ilham Bahari";
 	$contact = "Contact";
+	$language  = "Language";
 	$theme = "Personalize Theme";
 	$setting_note = "*Theme settings will be saved for<br>your next vist";
 	$what_id_do = 
@@ -29,6 +30,6 @@
 	'	
 		<h6 class="post-title">School Payment Application</h6>
 		<p class="post-intro">School Payment Application Using Midtrans Payment Gateway and PHP</p>
-		<a href="project/pembayaran-spp.html">Read More</a>
+		<a href="project/school-payment'.$get.'">Read More</a>
 	';
  ?>

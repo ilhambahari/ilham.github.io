@@ -2,6 +2,7 @@
 	
 	$title = "Hai, saya Moch Ilham Bahari";
 	$contact = "Kontak";
+	$language  = "Bahasa";
 	$theme = "Personalisasi Tema";
 	$setting_note = "*Pengaturan tema akan disimpan untuk <br> kunjungan Anda berikutnya";
 	$what_id_do = "<h3> Yang Saya Lakukan </h3><p> Saat ini saya adalah pengembang web dan saya menikmati belajar tentang pengembangan web. </p>";
@@ -25,6 +26,6 @@
 	'	
 		<h6 class = "post-title"> Aplikasi Pembayaran Sekolah </h6>
 		<p class = "post-intro"> Aplikasi Pembayaran Sekolah Menggunakan Payment Gateway Midtrans dan PHP </p>
-		<a href="project/pembayaran-spp.html"> Baca Selengkapnya </a>
+		<a href="project/school-payment'.$get.'"> Baca Selengkapnya </a>
 	';
  ?>
