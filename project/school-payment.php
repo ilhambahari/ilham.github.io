@@ -54,8 +54,8 @@
 
 	function id()
 	{
-		$title = 'School Payment';
-		$contact = 'contact';
+		$title = 'Pembayaran Sekolah';
+		$contact = 'Kontak';
 		$description = 
 		'
 			<h3> Aplikasi pembayaran SPP menggunakan PHP dan gateway pembayaran Midtrans </h3>
