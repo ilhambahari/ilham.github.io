@@ -148,7 +148,7 @@
 
 				<div>
 					<div class="post">
-						<img class="thumbnail" src="./images/pembayaran-spp/snap midtrans.png">
+						<img class="thumbnail" src="images/pembayaran-spp/snap midtrans.PNG">
 						<div class="post-preview">
 							<?= $project1; ?>
 						</div>
