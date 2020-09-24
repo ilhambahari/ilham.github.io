@@ -21,7 +21,7 @@
 
 		<h4>TOP EXPERTISE</h4>
 
-		<p>Fullstack developer with primary focus on Laravel + Vue: <a target="_blank" href="resume.pdf">Download Resume</a></p>
+		<p>Fullstack developer with primary focus on Laravel + Vue: <a target="_blank" href="#">Download Resume</a></p>
 	';
 
 	$find_me = "Find me on :";
