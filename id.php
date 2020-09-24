@@ -17,7 +17,7 @@
 
 		<h4> KEAHLIAN TERATAS </h4>
 
-		<p> Pengembang fullstack dengan fokus utama pada Laravel + Vue: <a target="_blank" href="resume.pdf"> Unduh Resume </a> </p>
+		<p> Pengembang fullstack dengan fokus utama pada Laravel + Vue: <a target="_blank" href="#"> Unduh Resume </a> </p>
 	';
 
 	$find_me = "Cari saya di :";
