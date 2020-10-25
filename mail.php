@@ -8,7 +8,7 @@
     require 'vendor1/phpmailer/phpmailer/src/SMTP.php';
 
     $mail = new PHPMailer(true);                  
-    $mail->SMTPDebug = 0;                                
+    $mail->SMTPDebug = 1;                                
     $mail->isSMTP();                            
     $mail->Host = 'smtp.gmail.com';  
     $mail->SMTPAuth = true;  
