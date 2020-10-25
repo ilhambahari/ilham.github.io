@@ -29,7 +29,19 @@
 	$project1 = 
 	'	
 		<h6 class="post-title">School Payment Application</h6>
-		<p class="post-intro">School Payment Application Using Midtrans Payment Gateway and PHP</p>
+		<p class="post-intro">Application Using Midtrans Payment Gateway and PHP</p>
 		<a href="project/school-payment'.$get.'">Read More</a>
+	';
+	$project2 = 
+	'	
+		<h6 class = "post-title">Cashier Application </h6>
+		<p class = "post-intro">Application using PHP, MySQL dan AJAX </p>
+		<a href="project/cashier'.$get.'"> Read More </a>
+	';
+	$project3 = 
+	'	
+		<h6 class = "post-title">Candidate employee recommendation application for training at PT Daya Adicipta Motora, Honda </h6>
+		<p class = "post-intro"> Application using Codeigniter and MySQL</p>
+		<a href="project/honda'.$get.'"> Read More </a>
 	';
  ?>

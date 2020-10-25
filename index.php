@@ -1,5 +1,6 @@
 <?php 
-	
+	session_start();
+
 	if(!isset($_GET['lang'])){
 		$get = "";
 		require 'en.php';
@@ -150,27 +151,45 @@
 
 				<div>
 					<div class="post">
+						<img class="thumbnail" src="images/honda/honda.PNG">
+						<div class="post-preview">
+							<?= $project3; ?>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="images/kasir/1.PNG">
+						<div class="post-preview">
+							<?= $project2; ?>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
 						<img class="thumbnail" src="images/pembayaran-spp/snap midtrans.PNG">
 						<div class="post-preview">
 							<?= $project1; ?>
 						</div>
 					</div>
 				</div>
-
+				
 			</div>
 		</div>
 	</section>
 
-	<section class="s2">
+	<section class="s2" id="kontak">
 		<div class="main-container">
 			<a href=""></a>
 			<h3 style="text-align: center;">Get In Touch</h3>
 
-			<form id="contact-form">
+			<form id="contact-form" action="mail.php" method="post">
 				<a name="contact"></a>
 
 				<label>Name</label>
-				<input class="input-field" type="text" name="name">
+				<input class="input-field" type="text" name="nama">
 
 				<label>Subject</label>
 				<input class="input-field" type="text" name="subject">
@@ -179,7 +198,7 @@
 				<input class="input-field" type="text" name="email">
 
 				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
+				<textarea class="input-field" name="pesan"></textarea>
 
 				<input id="submit-btn" type="submit" value="Send">
 			</form>
@@ -187,5 +206,6 @@
 	</section> 
 
 	<script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>

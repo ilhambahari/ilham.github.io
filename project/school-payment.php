@@ -32,6 +32,12 @@
 				<li>- Morris.js</li>
 				<li>- Payment Gateway Midtrans</li>
 			</ul>
+
+			<h5> Link : </h5>
+			<ul>
+				<li>- <a href="https://aplikasispp.kopiham.space/admin" target="blank">Demo Admin School Payment Application</a></li>
+				<li>- <a href="https://aplikasispp.kopiham.space" target="blank">Demo Student School Payment Application</a></li>
+			</ul>
 		';
 		$project = [
 			'Student Bills',
@@ -83,6 +89,12 @@
 			<li> - MySQL </li>
 			<li> - Morris.js </li>
 			<li> - Payment Gateway Midtrans </li>
+			</ul>
+
+			<h5> Link : </h5>
+			<ul>
+				<li>- <a href="https://aplikasispp.kopiham.space/admin" target="blank">Demo Admin Aplikasi Pembayaran SPP</a></li>
+				<li>- <a href="https://aplikasispp.kopiham.space" target="blank">Demo Siswa Aplikasi Pembayaran SPP</a></li>
 			</ul>
 		';
 		$project = [

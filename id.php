@@ -28,4 +28,16 @@
 		<p class = "post-intro"> Aplikasi Pembayaran Sekolah Menggunakan Payment Gateway Midtrans dan PHP </p>
 		<a href="project/school-payment'.$get.'"> Baca Selengkapnya </a>
 	';
+	$project2 = 
+	'	
+		<h6 class = "post-title"> Aplikasi Kasir </h6>
+		<p class = "post-intro"> Aplikasi Kasir Menggunakan PHP, MySQL dan AJAX </p>
+		<a href="project/cashier'.$get.'"> Baca Selengkapnya </a>
+	';
+	$project3 = 
+	'	
+		<h6 class = "post-title">Aplikasi rekomendasi karyawan untuk pelatihan di PT Daya Adicipta Motora, Honda </h6>
+		<p class = "post-intro"> Aplikasi tersebut menggunakan Codeigniter dan MySQL</p>
+		<a href="project/honda'.$get.'"> Baca Selengkapnya </a>
+	';
  ?>
