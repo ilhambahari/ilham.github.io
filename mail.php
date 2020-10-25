@@ -15,8 +15,8 @@
     //ganti dengan email dan password yang akan di gunakan sebagai email pengirim                  
     $mail->Username = 'ngopiterus07@gmail.com';       
     $mail->Password = 'akucakep123';                       
-    $mail->SMTPSecure = 'ssl';                           
-    $mail->Port = 465;                                  
+    $mail->SMTPSecure = 'tls';                           
+    $mail->Port = 587;                                  
     //ganti dengan email dan nama kamu
     $mail->setFrom($_POST['email'], $_POST['nama']);
 
