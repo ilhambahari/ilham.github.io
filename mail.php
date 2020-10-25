@@ -8,14 +8,14 @@
     require 'vendor1/phpmailer/phpmailer/src/SMTP.php';
 
     $mail = new PHPMailer(true);                  
-    $mail->SMTPDebug = 1;                                
+    $mail->SMTPDebug = 2;                                
     $mail->isSMTP();                            
     $mail->Host = 'smtp.gmail.com';  
     $mail->SMTPAuth = true;  
     //ganti dengan email dan password yang akan di gunakan sebagai email pengirim                  
     $mail->Username = 'ngopiterus07@gmail.com';       
     $mail->Password = 'akucakep123';                       
-    $mail->SMTPSecure = 'tls';                           
+    $mail->SMTPSecure = 'ssl';                           
     $mail->Port = 465;                                  
     //ganti dengan email dan nama kamu
     $mail->setFrom($_POST['email'], $_POST['nama']);
