@@ -200,7 +200,7 @@
 				<label>Message</label>
 				<textarea class="input-field" name="pesan"></textarea>
 
-				<input id="submit-btn" type="submit" value="Send">
+				<input id="submit-btn" type="submit" value="Send" style="cursor: pointer;">
 			</form>
 		</div>
 	</section> 
