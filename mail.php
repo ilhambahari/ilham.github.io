@@ -1,10 +1,12 @@
 <?php
 
-    session_start();
-
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
-    require_once 'vendor1/autoload.php';
+
+    require 'vendor1/phpmailer/phpmailer/src/Exception.php';
+    require 'vendor1/phpmailer/phpmailer/src/PHPMailer.php';
+    require 'vendor1/phpmailer/phpmailer/src/SMTP.php';
+
     $mail = new PHPMailer(true);                  
     $mail->SMTPDebug = 0;                                
     $mail->isSMTP();                            
