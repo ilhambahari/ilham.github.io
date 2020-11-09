@@ -29,7 +29,7 @@
 			<h5>Technologies:</h5>
 			<ul>
 				<li> - PHP </li>
-				<li> - Codeiginter </li>
+				<li> - Codeigniter </li>
 				<li> - jQuery </li>
 				<li> - MySQL </li>
 				<li> - DataTables </li>
@@ -77,7 +77,7 @@
 			<h5> Teknologi: </h5>
 			<ul>
 			<li> - PHP </li>
-			<li> - Codeiginter </li>
+			<li> - Codeigniter </li>
 			<li> - jQuery </li>
 			<li> - MySQL </li>
 			<li> - DataTables </li>

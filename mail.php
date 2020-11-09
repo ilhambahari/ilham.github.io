@@ -15,8 +15,8 @@
     //ganti dengan email dan password yang akan di gunakan sebagai email pengirim                  
     $mail->Username = 'ngopiterus07@gmail.com';       
     $mail->Password = 'akucakep123';                       
-    $mail->SMTPSecure = 'tls';                           
-    $mail->Port = 587;                                  
+    $mail->SMTPSecure = 'ssl';                           
+    $mail->Port = 465;                                  
     //ganti dengan email dan nama kamu
     $mail->setFrom($_POST['email'], $_POST['nama']);
 
@@ -24,11 +24,11 @@
     $mail->isHTML(true);                                 
     $mail->Subject = $_POST['subject'];
     $mail->Body    = "<h3>Pesan dari portofolio</h3><br> ".$_POST['pesan'];
-    $mail->send();
-
+    if($mail->send()){
     // $_SESSION['berhasil'] = 'Terima kasih sudah mengirim pesan :)';
 
-    echo "<script>
-    alert('Terima kasih sudah mengirim pesan :)');
-    window.location.href='index';
-    </script>";
+        echo "<script>
+        alert('Terima kasih sudah mengirim pesan :)');
+        window.location.href='index';
+        </script>";
+    }
