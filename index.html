@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+	<title>Ilham Bahari</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<style>
+		h1,h2,h3,h4,h5,h6,p, li, span, label, input, textarea{
+			color: var(--secondaryText);
+			font-family: 'Roboto Mono', monospace;
+		}
+		#desc{
+			font-size: 19px;
+		}
+
+		img{
+			object-fit: cover;
+		}
+	</style>
+</head>
+<body>
+	<div class="container mt-5">
+		<ul class="nav nav-tabs">
+		  <li class="nav-item">
+		    <a class="nav-link active" data-toggle="tab" href="#profile">Profile</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#skill">Skill</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#project">Project</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#contact">Contact</a>
+		  </li>
+		</ul>
+		<div id="myTabContent" class="tab-content mt-5">
+		  <div class="tab-pane" id="home">
+		    <p>Disini home</p>
+		  </div>
+		  <div class="tab-pane fade show active" id="profile">
+		  	<div class="row">
+		  		<div class="col-lg-8">
+		  			<h3>Hi, saya Moch Ilham Bahari</h3>
+		  			<h4 id="desc">
+		  				Saat ini saya adalah web developer dan saya menikmati belajar tentang web development.
+		  				Saya senang menulis dan membaca buku. Saya senang memberikan solusi kepada yang membutuhkan. Saya senang membuat program yang dapat mempermudah pekerjaan orang lain. <br><br>
+		  			</h4>
+		  		</div>
+		  		<div class="col-lg-4">
+		  			<img src="ilham.jpg" class="rounded-circle" width="200px">
+		  		</div>
+		  	</div>
+		  </div>
+		  <div class="tab-pane fade" id="skill">
+		    <div id="skills">
+				<ul>
+					<li>HTML/CSS</li>
+					<li>JavaScript</li>
+					<li>Bootstrap</li>
+					<li>PHP</li>
+					<li>Laravel</li>
+					<li>CodeIgniter</li>
+					<li>jQuery</li>
+					<li>Vue</li>
+					<li>PWA</li>
+					<li>GIT</li>
+					<li>MySQL</li>
+					<li>VB 6</li>
+				</ul>
+			</div>
+		  </div>
+		  <div class="tab-pane fade" id="project">
+		    <!-- <p>Disini project</p> -->
+		    <div class="row">
+		    	<div class="col-lg-4">
+		    		<div class="card mb-3">
+					  <img src="honda/honda.PNG" width="100%" height="200">
+					  <div class="card-body">
+					    <p class="card-text">Aplikasi rekomendasi karyawan untuk pelatihan di PT Daya Adicipta Motora</p>
+					  </div>
+					  <div class="card-footer text-muted">
+					    <a href="projects/honda.html">Lihat Detail</a>
+					  </div>
+					</div>
+		    	</div>
+
+		    	<div class="col-lg-4">
+		    		<div class="card mb-3">
+					  <img src="pembayaran-spp/snap midtrans.PNG" width="100%" height="200">
+					  <div class="card-body">
+					    <p class="card-text">Aplikasi Pembayaran Sekolah Menggunakan Payment Gateway Midtrans dan PHP</p>
+					  </div>
+					  <div class="card-footer text-muted">
+					    <a href="projects/pembayaran-sekolah.html">Lihat Detail</a>
+					  </div>
+					</div>
+		    	</div>
+
+		    	<div class="col-lg-4">
+		    		<div class="card mb-3">
+					  <img src="kasir/1.PNG" width="100%" height="200">
+					  <div class="card-body">
+					    <p class="card-text">Aplikasi Kasir Menggunakan PHP, MySQL dan AJAX</p>
+					  </div>
+					  <div class="card-footer text-muted">
+					    <a href="projects/kasir.html">Lihat Detail</a>
+					  </div>
+					</div>
+		    	</div>
+
+		    	<div class="col-lg-4">
+		    		<div class="card mb-3">
+					  <img src="kamus.PNG" width="100%" height="200">
+					  <div class="card-body">
+					    <p class="card-text">Aplikasi Kamus Bahasa Indonesia Menggunakan Algoritma Sequential Search dan Binary Search</p>
+					  </div>
+					  <div class="card-footer text-muted">
+					    <a href="https://kbbialgoritma.com">Lihat Detail</a>
+					  </div>
+					</div>
+		    	</div>
+
+		    	<div class="col-lg-4">
+		    		<div class="card mb-3">
+					  <img src="kopiham/kopiham.PNG" width="100%" height="200">
+					  <div class="card-body">
+					    <p class="card-text">Blog menggunakan Laravel</p>
+					  </div>
+					  <div class="card-footer text-muted">
+					    <a href="https://kopiham.space">Lihat Detail</a>
+					  </div>
+					</div>
+		    	</div>
+		    </div>
+		  </div>
+		  <div class="tab-pane fade" id="contact">
+		  		<h3>Kirim Pesan</h3><br>
+
+		  		<div class="alert alert-dismissible alert-danger" id="notif" style="display: none">
+				  <button type="button" class="close" data-dismiss="alert">&times;</button>
+				  Data harus diisi semua
+				</div>
+
+		  		<div class="form-group">
+		  			<label>Nama</label>
+		  			<input type="text" name="nama" id="nama" class="form-control" required="">
+		  		</div>
+
+		  		<div class="form-group">
+		  			<label>Email</label>
+		  			<input type="email" name="email" id="email" class="form-control" required="">
+		  		</div>
+
+		  		<div class="form-group">
+		  			<label>Pesan</label>
+		  			<textarea name="pesan" id="pesan" class="form-control" rows="6" required=""></textarea>
+		  		</div>
+
+		  		<div class="form-group">
+		  			<button class="btn btn-primary btn-sm" id="kirim">Kirim Pesan WhatsApp</button>
+		  		</div>
+		    Sosial : <a href="https://instagram.com/m_ilhambahari" target="_blank">Instagram</a> / <a href="https://github.com/ilhambahari" target="_blank">Github</a> / <a href="https://www.linkedin.com/in/moch-ilham-bahari-01655512b/" target="_blank">LinkedIn</a>
+		  </div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+	<script>
+		$(document).ready(function(){
+			$('#kirim').on('click', function(){
+				let nama = $('#nama').val();
+				let email = $('#email').val();
+				let pesan = $('#pesan').val();
+				if(nama != "" && email != "" && pesan != ""){
+					let text = 'Hai ilham perkenalkan saya ';
+					let wa = text+'%0A Nama: '+nama+'%0A Email: '+email+'%0A Pesan: '+pesan;
+					window.location = 'https://api.whatsapp.com/send?phone=+6285624218342&text='+wa;
+				}else{
+					$('#notif').show();
+				}
+			});
+		});
+	</script>
+</body>
+</html>
