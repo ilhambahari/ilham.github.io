@@ -1,6 +1,4 @@
 <?php 
-	session_start();
-
 	if(!isset($_GET['lang'])){
 		$get = "";
 		require 'en.php';
